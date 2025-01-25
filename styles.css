@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'Obviously';
+    src: url('fonts/Obviously-Regular.otf') format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Obviously", sans-serif;
+    background-color: #FFE8BA;
+    color: #000;
+    overflow-x: hidden;
+    min-width: 400px;
+}
+
+.main-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0rem 6rem;
+    padding: 2rem 0.1rem;
+    border-bottom: 1px solid #000;
+    
+}
+
+.logo {
+    font-size: 2rem;
+    padding-bottom: 1.3rem;
+}
+
+.nav-links {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+}
+
+.nav-links a {
+    list-style: none;
+    text-decoration: none;
+    color: #000;
+    font-size: 1rem;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icon object {
+    width: 1.25rem;
+    height: 1.25rem;
+}
+
+.burger-btn {
+    display: none;
+}
+
+.burger-btn img {
+    all: unset;
+    background-color: #FFE8BA;
+    width: 2rem;
+    height: 2rem;
+}
+
+.main-content {
+    text-align: center;
+    padding: 3rem 2rem;
+}
+
+.main-title {
+    font-size: 9rem;
+    font-weight: 100;
+    line-height: 1.2;
+    text-align: center; 
+    word-wrap: break-word;
+    width: 80%; 
+    margin: 0 auto; 
+    padding-bottom: 2.3rem;
+     
+}
+
+
+.main-image img {
+    width: 100%;
+    max-width: 2630px;
+    border-radius: 5rem;
+    object-fit: cover;
+}
+
+
+.wesley-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem;
+    gap: 2rem;
+}
+
+.wesley-info  h4{
+    font-size: 6rem;
+    font-weight: 100;
+    line-height: 1.3;
+}
+
+.welcome {
+    font-size: 3rem;
+    max-width: 40%;
+    padding-left: 1rem;
+}
+
+.about-us {
+    max-width: 34%;
+    font-size: 1rem;   
+}
+
+.learn-more {
+    margin-top: 1rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.featured-products {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 15rem;
+    padding: 15rem;
+}
+
+.featured-products img {
+    display: flex;
+    justify-content: center;
+    max-width: 880px;
+    height: auto;
+    
+}
+
+.iris-collar {
+    text-align: center;
+}
+
+.iris-collar img {
+    height: 510px;
+    max-width: 300px;
+    border-radius: 1rem;
+    padding-top: 8rem;
+    padding-bottom: 1rem;
+}
+
+.shop-collars {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+    background-color: #E6D8F9;
+    padding: 3rem;
+    text-align: center;
+}
+
+.shop-collars p {
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+.shop-collars img {
+    max-width: 100%;
+    border-radius: 1rem;
+    padding-bottom: 1rem;
+}
+
+.shop-collars div p {
+    padding-bottom: 1rem;
+}
+
+.shop-collars div {
+    padding: 2rem;
+}
+
+.shop-btn {
+    font-size: 1rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 1rem 1.2rem;
+    border: 3px solid #000;
+    border-radius: 0.5rem;
+    background: none;
+    cursor: pointer;
+}
+
+
+.shop-reviews {
+    height: 71vh;
+    background: url(https://www.solidbackgrounds.com/images/2560x1440/2560x1440-white-solid-color-background.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 7rem;
+    gap: 1.5rem;
+    
+}
+
+.shop-reviews img {
+    max-width: 300px;
+}
+
+.shop-reviews h1 {
+    font-size: 5.8rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.shop-reviews h5 {
+    font-size: 1rem;
+}
+
+.shop-reviews p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+
+.circle-container {
+    display: flex;
+    cursor: pointer;
+    padding-top: 1rem;
+    gap: 1rem;
+}
+
+.circle {
+    width: 68px;
+    height: 68px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.70);
+}
+
+.arrow {
+    font-size: 32px;
+    line-height: 1;
+    color: white;
+    position: relative;
+    bottom: 0.5rem;
+}
+
+.circle:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+.social-media {
+    padding: 3rem;
+    text-align: center;
+}
+
+.instagram-shop {
+    margin-bottom: 2rem;
+}
+
+.instagram-shop h1 {
+    font-size: 6rem;
+    font-weight: 100;
+    padding-bottom: 1rem;
+}
+
+.instagram-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 2rem; 
+}
+
+.instagram-link {
+    border-bottom: 1px solid black;
+}
+
+.instagram-gallery img {
+    max-width: 650px; 
+    border-radius: 4rem;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    align-items: center;
+    padding: 5rem 5rem;
+    background-color: #FFE8BA;
+    gap: 1rem;
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 3rem;
+}
+
+.footer-info h3 {
+    font-size: 2rem;
+    font-weight: 100;
+    padding-bottom: 3rem;
+}
+
+
+.social-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-icons a img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-links ul {
+    list-style: none;
+    text-decoration: underline;
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+
+.footer-links ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+
+.sign-up-form {
+    display: flex;
+    gap: 0.8rem;
+}
+
+.sign-up-form input {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+    border: none;
+    padding: 1.5rem 5rem;
+}
+
+.form-btn {
+    width: 100px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.sign-up p {
+    font-size: 0.8rem;
+}
+
+.sign-up-btn {
+    font-size: 1.2rem;
+    font-weight: 600;
+    background: none;
+    border: solid 3px black;
+    border-radius: 0.5rem;
+    padding: 1rem 2.2rem;
+}
+
+.sign-up-form .shop-btn {
+    padding: 2rem 3rem;
+}
+
+@media (max-width: 768px) {
+   
+    .main-heading {
+        display: flex;
+        justify-content: space-between;
+        margin: 0rem 2rem;
+        gap: 1rem;
+    }
+
+   .logo {
+    padding-left: 1.8rem;
+   }
+
+    .burger-btn {
+        display: inline-block;  
+    }
+
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .wesley-info {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .wesley-info .welcome {
+        font-size: 3rem;
+        display: flex;
+        padding: 0rem 0rem;
+        max-width: 100%;
+    }
+
+    .about-us {
+        max-width: 100%;
+    }
+
+    .main-title {
+        max-width: 100%;
+
+    }
+    .main-content h1 {
+        font-size: 3.5rem;
+    }
+    
+
+    .featured-products {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0.5rem;
+    }
+
+    .featured-products img {
+        width: 400px;
+        height: 500px;
+        
+    }
+
+    .iris-collar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .shop-collars {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .shop-collars img, .social-media img, .instagram-gallery img {
+        max-width: 100%;
+    }
+
+    .shop-reviews h1 {
+        font-size: 2.8rem;
+        font-weight: 100;
+    }
+    
+    .shop-reviews h5 {
+        font-size: 1rem;
+    }
+    
+    .shop-reviews p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .instagram-shop h1 {
+        font-size: 2rem;
+    }
+    
+
+    .instagram-gallery {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        
+    }
+
+    footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+    }
+
+    .sign-up {
+        display: flex;
+        justify-content: left;
+        align-items: last baseline;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .burger-btn {
+        display: inline-block;
+    } 
+
+    .logo {
+        font-size: 1.8rem;
+    }
+    
+    .main-heading {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .main-content h1 {
+        font-size: 1.5rem;
+    }
+
+    .shop-collars button {
+        font-size: 0.9rem;
+    }
+
+    .social-media img {
+        max-width: 100px;
+    }
+
+    .featured-products {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0rem 1rem;
+    }
+
+    .featured-products img {
+        width: 300px;
+        height: 400px;
+        
+    }
+  
+    .shop-reviews h1 {
+        font-size: 1.9rem;
+        font-weight: 100;
+    }
+    
+    .shop-reviews h5 {
+        font-size: 0.9rem;
+        text-align: center;
+    }
+    
+    .shop-reviews p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 100%;
+        padding: 0rem 1rem;
+    }
+
+    .social-icons {
+        justify-content: center;
+    }
+
+    .sign-up {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sign-up-form {
+        display: flex;
+        gap: 0.8rem;
+    }
+    
+    .sign-up p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .sign-up-form input {
+        box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+        border: none;
+        padding: 1rem 1.4rem;
+    }
+
+    .sign-up-btn {
+        font-size: 1.2rem;
+        font-weight: 600;
+        background: none;
+        border: solid 3px black;
+        border-radius: 0.5rem;
+        padding: 1rem 1.4rem;
+    }
+    
+}
