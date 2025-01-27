@@ -80,7 +80,7 @@ body {
 }
 
 .main-title {
-    font-size: 9rem;
+    font-size: 8rem;
     font-weight: 100;
     line-height: 1.2;
     text-align: center; 
@@ -94,7 +94,8 @@ body {
 
 .main-image img {
     width: 100%;
-    max-width: 2630px;
+    max-width: 2400px;
+    max-height: 940px;
     border-radius: 5rem;
     object-fit: cover;
 }
@@ -117,12 +118,12 @@ body {
 .welcome {
     font-size: 3rem;
     max-width: 40%;
-    padding-left: 1rem;
+    
 }
 
 .about-us {
     max-width: 34%;
-    font-size: 1rem;   
+    font-size: 0.9rem;   
 }
 
 .learn-more {
@@ -288,7 +289,7 @@ body {
 }
 
 .instagram-gallery img {
-    max-width: 650px; 
+    max-width: 585px; 
     border-radius: 4rem;
 }
 
@@ -351,7 +352,7 @@ footer {
 .sign-up-form input {
     box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
     border: none;
-    padding: 1.5rem 5rem;
+    padding: 1.5rem 3.7rem;
 }
 
 .form-btn {
@@ -373,7 +374,7 @@ footer {
     font-size: 1.2rem;
     font-weight: 600;
     background: none;
-    border: solid 3px black;
+    border: solid 2.5px black;
     border-radius: 0.5rem;
     padding: 1rem 2.2rem;
 }
@@ -493,8 +494,10 @@ footer {
     .sign-up {
         display: flex;
         justify-content: left;
-        align-items: last baseline;
+        
     }
+
+    
 }
 
 @media (max-width: 480px) {
